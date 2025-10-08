@@ -164,7 +164,7 @@ Post Data Example
 
 Requirements
 ------------------------------
-* Redmine 4.0 or later
+* Redmine 4.0 or later (tested with Redmine 6.x)
 
 
 Skipping webhooks

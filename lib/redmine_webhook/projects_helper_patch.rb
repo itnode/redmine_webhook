@@ -15,4 +15,5 @@ module RedmineWebhook
   end
 end
 
-ProjectsController.send(:helper, RedmineWebhook::ProjectsHelperPatch)
+# Use prepend for Redmine 5.x/6.x compatibility
+ProjectsHelper.prepend(RedmineWebhook::ProjectsHelperPatch)
